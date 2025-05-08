@@ -23,7 +23,7 @@ The workspace is organized as follows:
 
 1. Clone the repository:
 ```sh
-git clone https://github.com/your-repo/TestEmbedHTTP.git
+git clone https://github.com/jjmrocha/TestEmbedHTTP.git
 cd TestEmbedHTTP
 ```
 
@@ -35,7 +35,7 @@ cd ../Spring
 ./gradlew build
 ```
 
-3. Start the servers:
+3. Start one of the servers:
 ```sh
 cd EmbedHTTP
 ./gradlew run
