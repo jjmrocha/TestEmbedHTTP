@@ -1,0 +1,4 @@
+method: GET
+endpoint: "http://127.0.0.1:9090/resource/{{ .Data.ID }}?name={{ .Data.NAME }}"
+headers:
+    User-Agent: Beast/1
