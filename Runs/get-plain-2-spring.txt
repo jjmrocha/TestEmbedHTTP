@@ -1,0 +1,52 @@
+===== System =====
+Operating System: darwin
+System Architecture: arm64
+Logical CPUs: 8
+===== Test =====
+Request template: get-plain.yaml
+Sample Data: test-data.csv
+Configuration: beast-config.json
+Test duration: 120 seconds
+Number of concurrent requests: 2
+===== Preparing =====
+- Reading configuration
+- Loading request template
+- Loading data file
+===== Executing =====
+2025/05/08 15:35:45 [#...................] 5%
+2025/05/08 15:35:51 [##..................] 10%
+2025/05/08 15:35:57 [###.................] 15%
+2025/05/08 15:36:03 [####................] 20%
+2025/05/08 15:36:09 [#####...............] 25%
+2025/05/08 15:36:15 [######..............] 30%
+2025/05/08 15:36:21 [#######.............] 35%
+2025/05/08 15:36:27 [########............] 40%
+2025/05/08 15:36:33 [#########...........] 45%
+2025/05/08 15:36:39 [##########..........] 50%
+2025/05/08 15:36:45 [###########.........] 55%
+2025/05/08 15:36:51 [############........] 60%
+2025/05/08 15:36:57 [#############.......] 65%
+2025/05/08 15:37:03 [##############......] 70%
+2025/05/08 15:37:09 [###############.....] 75%
+2025/05/08 15:37:15 [################....] 80%
+2025/05/08 15:37:21 [#################...] 85%
+2025/05/08 15:37:27 [##################..] 90%
+2025/05/08 15:37:33 [###################.] 95%
+2025/05/08 15:37:39 [####################] 100%
+===== Stats =====
+Executed requests: 2586663
+Time taken to complete: 2m0.000393083s
+Requests per second: 22695.3823
+Avg response time: 88.123µs
+===== Status 200 =====
+2586663 requests, with avg response time of 88.123µs
+And the following distribution:
+- The fastest request took 34.875µs
+- 20% of requests under 73.25µs
+- 40% of requests under 81.375µs
+- 60% of requests under 88.792µs
+- 80% of requests under 98.75µs
+- 90% of requests under 107.791µs
+- 95% of requests under 117.334µs
+- 99% of requests under 167.25µs
+- The slowest request took 3.614667ms
