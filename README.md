@@ -59,4 +59,4 @@ Example:
 ```
 
 ## License
-This code and tests are licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+The code and tests on this project are licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
