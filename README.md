@@ -11,7 +11,7 @@ The workspace is organized as follows:
 - **`test-data.csv`**: A CSV file with test data used to generate payloads for benchmarking.
 - **`beast-config.json`**: Configuration file for the Beast testing tool.
 - **`run-test.sh`**: A shell script to automate the benchmarking process.
-- **`*.yaml*`**: Beast templates for testing endpoints.
+- **`*.yaml`**: Beast templates for testing endpoints.
 
 ## Prerequisites
 
