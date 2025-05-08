@@ -1,6 +1,6 @@
-# TestEmbedHTTP
+# EmbedHTTP Benchmark Testing
 
-This project benchmarks the performance of the [EmbedHTTP](https://github.com/uiqui/embedhttp) framework against [Spring Boot](https://spring.io/projects/spring-boot) using the [Beast](https://github.com/jjmrocha/beast) testing tool.
+This project benchmarks the performance of the [EmbedHTTP](https://github.com/jjmrocha/embedhttp) framework against [Spring Boot](https://spring.io/projects/spring-boot) using the [Beast](https://github.com/jjmrocha/beast) testing tool.
 
 ## Project Structure
 
