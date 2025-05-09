@@ -12,10 +12,11 @@ java {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
-var embedhttpVersion = "0.5.1"
+var embedhttpVersion = "0.5.2"
 
 dependencies {
     implementation("net.uiqui:embedhttp:$embedhttpVersion")
