@@ -16,7 +16,7 @@ repositories {
     mavenCentral()
 }
 
-var embedhttpVersion = "0.5.2"
+var embedhttpVersion = "0.5.4"
 
 dependencies {
     implementation("net.uiqui:embedhttp:$embedhttpVersion")
